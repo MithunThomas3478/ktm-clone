@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER CONTAINER 1  START*/
+.navbar {
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: left;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    color: rgb(252, 250, 250);
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'ktm2';
+    position: static;
+    padding-top: 70px;
+    font-size: 20px;
+}
+/*HEADER CONTAINER 1  START*/
+
+/* FONT STYLE */
+@font-face {
+    font-family: 'ktm2';
+    src: url(KTMFONT/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'ktm1';
+    src: url(KTMFONT/FONT.TTF);
+}
+
+@font-fACE {
+    font-family: 'ktm3';
+    src: url(KTMFONT/Roboto-Regular.ttf)
+}
+/* KTM 790 CONTENT CONTAINER 1 CONTENT START */
+.container1 {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url("ktm\ photos/KTM 790 Duke.jpg");
+    background-size: 100% 900px;
+    height: 900px;
+}
+row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2 {
+    flex-basis: 50%;
+    min-width: 100px;
+    color: white;
+    font-family: 'ktm1';
+    font-size: 30px;
+    text-align: left;
+    padding-top: 250px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: -30px;
+}
+
+/* CONTAINER 1 CONTENT END */
+
+
+/* MODELS KTM BIKES CONTAINER 2 START */
+.container2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    background-image: url("ktm\ photos/ktmborder2.jpeg");
+    color: white;
+    text-align: center;
+    padding: 90px;
+    font-family: 'ktm2';
+    font-size: 60px;
+    position: relative;
+}
+/* CONTAINER 2 END */
+
+/* CATAGORIES OF KTM RIDING AND PERFORMANCE CONTAINER 2 START*/
+.container3 {
+    font-family: 'ktm2';
+}
+
+/* CONTAINER 3 END */
+
+/*ACHIVEMENTS OF KTM CONTAINER 4 START*/
+.container4 {
+    font-family: 'ktm2';
+}
+/* CONTAINER 4 END */
+
+/* READ MORE BUTTON CONTAINER 5 START */
+.btn {
+    width: 200px;
+    height: 70px;
+    background-color: rgb(255, 69, 0);
+    border: none;
+    font-family: 'ktm2';
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 650px;
+}
+/* CONTAINER 5 BUTTON  END */
+
+/* INSTAGRAG PAGE OF KTM CONTAINER 6 START */
+.container6 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.container6 .contents {
+    width: 50%;
+    padding-top: 230px;
+    margin-right: 60px;
+}
+.container6 .contents h4 {
+    margin-left: 50px;
+    font-family: 'ktm3';
+    font-weight: 400;
+    font-style: normal;
+}
+.container6 .contents button {
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    border-color: rgb(255, 69, 0);
+    background-color: black;
+    color: white;
+}
+.container6 .contents h1 {
+    font-family: 'ktm2';
+    font-size: 45px;
+    margin-right: 60px;
+}
+/* CONTAINER 6 END */
+
+/* NEWS FOR BUTTON CONTAINER 7 START */
+.container7 {
+    margin-left: 500px;
+    font-family: 'ktm2';
+}
+.container7 h2 button {
+    width: 200px;
+    height: 70px;
+    font-family: 'ktm2';
+    font-size: 20px;
+    background-color: rgb(255, 69, 0);
+    border: none;
+    color: white;
+}
+/* CONTAINER 7 END */
+
+/* CONTAINER 8 KTM DISCRIPTION START */
+.container8 {
+    width: 625px;
+    margin-left: 30%;
+    color: rgb(183, 180, 179);
+}
+/* CONTAINER 8 END */
+
+/* FOOTER START CONTAINER 9 */
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    color: white;
+    padding: 30px;
+    font-family: 'ktm2';
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    padding: 7px;
+}
+.footer-col {
+    width: 20%;
+    padding: 20px 15px;
+}
+.footer-col {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+/* CONTAINER 9 FOOTER END */
+
+/* KTM CLONE PROJECT DONE */
